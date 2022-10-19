@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Google Search</h1>
+        <form action="https://google.com/search">
+            <input type="text" name="q" id="search">
+            <button>Search</button>
+        </form>
+    </section>
+    <section>
+        <form action="">
+            <h1>Race Registeration!</h1>
+            <div>
+                <p>
+                    <label for="first">First Name</label>
+                    <input type="text" name="firstname" id="first" required>
+                </p>
+                <p>
+                    <label for="second">Second Name</label>
+                    <input type="text" name="secondname" id="second" required>
+                </p>
+            </div>
+            <div>
+                <p>
+                    Select a Race
+                </p>
+                <p>
+                    <input type="radio" name="racetype" id="1st" value="5k">
+                    <label for="1st">Fun Run 5k</label>
+                </p>
+                <p>
+                    <input type="radio" name="racetype" id="2nd" value="half">
+                    <label for="2nd">Half Marathon</label>
+                </p>
+                <p>
+                    <input type="radio" name="racetype" id="3rd" value="full">
+                    <label for="3rd">Full Marathon</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </p>
+            </div>
+            <div>
+                <label for="dropdown">Select Age Group</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="18-27">18-27</option>
+                    <option value="27-40">27-40</option>
+                    <option value="40-50">40-50</option>
+                </select>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

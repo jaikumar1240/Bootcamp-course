@@ -1,0 +1,36 @@
+.navbar{
+    background-color: rgb(31,41,55);
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+.button{
+    background-image: url(./profile_picture.png);
+    width: 3rem;
+    height: 3rem;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button-ham{
+    background-image: url(./hamburger.svg);
+    width: 3rem;
+    height: 3rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.button-ham:focus{
+    box-shadow: 0 0 0 2px white;
+  outline:none;
+}
+.button-ham:hover{
+    background-color: rgba(182, 204, 237, 0.2);;
+}
+.logo{
+    height: 3rem;
+}
